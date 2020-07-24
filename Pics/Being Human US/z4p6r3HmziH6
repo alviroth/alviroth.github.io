@@ -1,0 +1,13 @@
+<smil xmlns="http://www.w3.org/2005/SMIL21/Language">
+	<head>
+	</head>
+	<body>
+	<seq>
+		<ref src="http://link.theplatform.com/s/errorFiles/Unavailable.mp4" title="Geographic Restriction" abstract="This content is not available in your location.">
+			<param name="isException" value="true"/>
+			<param name="exception" value="GeoLocationBlocked"/>
+			<param name="responseCode" value="403"/>
+		</ref>
+	</seq>
+	</body>
+</smil>
